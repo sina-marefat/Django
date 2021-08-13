@@ -21,7 +21,7 @@ class Migration(migrations.Migration):
                 ('university', models.CharField(max_length=100)),
                 ('term', models.IntegerField()),
                 ('enterYear', models.IntegerField()),
-                ('payOrFree', models.BooleanField()),
+                ('FreeEdu', models.BooleanField()),
                 ('date', models.DateTimeField()),
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
